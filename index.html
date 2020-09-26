@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>JavaScript</title>
+  </head>
+  <body>
+      
+      <div class="container text-center mx-auto margin">
+        <h1 class=" display-4">Java Script<img class="margin" src="img/javinha.png" style="width: 90px; height: 90px;"></h1>
+        <small class="text-muted"> by <cite title="Autor"> <a href="https://github.com/samuelikz">@Samuelikz</a></cite></small>
+      </div>
+
+      <div class="container mx-auto">
+          <h1 class="h5 mx-auto" style="height: 30px;">Principais Tipos de Dados</h1>
+        <div class="row">
+            <div class="col-4">
+              <div class="list-group margin" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-String-list" data-toggle="list" href="#list-String" role="tab" aria-controls="home">String</a>
+                <a class="list-group-item list-group-item-action" id="list-inteiro-list" data-toggle="list" href="#list-inteiro" role="tab" aria-controls="profile">Inteiro</a>
+                <a class="list-group-item list-group-item-action" id="list-float-list" data-toggle="list" href="#list-float" role="tab" aria-controls="messages">Float</a>
+                <a class="list-group-item list-group-item-action" id="list-boorleano-list" data-toggle="list" href="#list-boorleano" role="tab" aria-controls="boorleano">Boorleano</a>
+                <a class="list-group-item list-group-item-action" id="list-array-list" data-toggle="list" href="#list-array" role="tab" aria-controls="array">Arrays</a>
+                <a class="list-group-item list-group-item-action" id="list-objeto-list" data-toggle="list" href="#list-objeto" role="tab" aria-controls="objeto">Objeto</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content margin" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-String" role="tabpanel" aria-labelledby="list-String-list"><samp>Exemplo:<br> var nome1 = "Pagina"; // string <br> ou <br> var nome1 = 'Pagina'; // string</samp></div>
+                <div class="tab-pane fade" id="list-inteiro" role="tabpanel" aria-labelledby="list-inteiro-list"><samp> Exemplo: <br> var idade = 23; // inteiro </samp> </div>
+                <div class="tab-pane fade" id="list-float" role="tabpanel" aria-labelledby="list-float-list"><samp>Exemplo: <br> var altura = 1.72; // float </samp></div>
+                <div class="tab-pane fade" id="list-boorleano" role="tabpanel" aria-labelledby="list-boorleano-list"><samp>Exemplo: <br> var ativo = true; // Boorleano </samp></div>
+                <div class="tab-pane fade" id="list-array" role="tabpanel" aria-labelledby="list-array-list"><samp>Exemplo: <br> var alunos = ["Pedro", "Juliana", "Samuel", "Camila"]; // Vetor ou {array} </samp></div>
+                <div class="tab-pane fade" id="list-objeto" role="tabpanel" aria-labelledby="list-objeto-list"><samp>Exemplo: <br> var aluno = { <br> nome: 'Juliana',<br> Idade: 17,<br> peso: 58.4,<br> ativo: true  }; //Exemplo do tipo de dados objeto </samp></div>
+              </div>
+            </div>
+          </div>
+
+        <h1 class="h5 mx-auto" style="height: 30px;">Estruturas</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group margin" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-condicional-list" data-toggle="list" href="#list-condicional" role="tab" aria-controls="home">Condicional</a>
+                        <a class="list-group-item list-group-item-action" id="list-switch-list" data-toggle="list" href="#list-switch" role="tab" aria-controls="home">Switch</a>
+                        </div>
+                        </div>
+                        <div class="col-8">
+                        <div class="tab-content margin" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-condicional" role="tabpanel" aria-labelledby="list-condicional-list"><samp>Exemplo: <br>var idade = 18;<br><br>if(idade >= 18){<br>console.log("Você é Maior de Idade") <br> }else{ <br> console.log("Você é Menor de Idade") <br> }<br> <br> <br> if(idade <=14){ <br>console.log("Criança") <br>}else if(idade > 14 && idade < 18){ <br>console.log("Adolecente") <br>}else{ <br>console.log("Adulto") <br>} <br></samp></div>
+                        <div class="tab-pane fade show" id="list-switch" role="tabpanel" aria-labelledby="list-switch-list"><samp>Exemplo: <br>switch (sexo) {<br>case 'm':<br>console.log("Masculino");<br>break;<br>case 'f':<br>console.log("Feminino");<br>break;<br>default:<br>console.log("Desconhecido")<br>break;<br>} </samp></div>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
